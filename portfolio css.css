@@ -1,0 +1,191 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#b9c9d8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color:#838fac;
+    color: #0f0f0f;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+/* Navigation menu styles */
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* About section styles */
+#about {
+    padding: 40px;
+    background-color: #979eaf;
+    text-align: center;
+}
+
+#about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Skills section styles */
+#skills {
+    padding: 10px;
+    background-color: #979eaf;
+    text-align: center;
+    max-width: 100%;
+    max-height: 300px;
+    color: #0f0f0f;
+    
+}
+
+#skills ul {
+    margin: 5px 0;
+    padding: 5px;
+    text-align:center ;
+    text-decoration-color: antiquewhite;
+    display: flex;
+    background-color: #a4b1be;
+    list-style-type: none;
+    
+    
+}
+
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.3s cubic-bezier(0.25,0.8,0.25,1);
+    text-align: center;
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    text-align: center;
+
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgb(201, 98, 161)0%, rgb(187, 85, 85)100%);
+    text-align: center;
+    
+}
+.HTML5{
+    width: 90%;
+    animation: HTML5 3s;
+  
+
+}
+.CSS3{
+    width: 80%;
+    animation: CSS3 3s;
+}
+.JS{
+    width: 70%;
+    animation: JS 3s;
+}
+.PYTHON{
+    width: 75%;
+    animation: PYTHON 3s;
+}
+
+#skills li {
+    width: 300px;
+    margin-bottom: 0px;
+    margin: 60px ;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: #0a0a0a;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Projects section styles */
+#projects {
+    padding: 30px;
+    background-color:#979eaf;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #0a0a0a;
+}
+
+#Resume{
+    padding: 20px;
+    background-color: #979eaf;
+    text-align: center;
+    color: #0a0a0a;
+}
+#Internships{
+    padding: 20px;
+    background-color: #979eaf;
+    text-align: center;
+    color: #0a0a0a;
+}
+#Internships li{
+    text-align: center;
+}
+#Certification{
+    color: #0a0a0a;
+    text-align: center;
+    padding: 10px;
+    background-color: #979eaf;
+    text-align: center;
+}
+#Certification img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: #050505;
+}
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #838fac;
+    color: #0c0c0c;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        position: static;
+    }
+}
